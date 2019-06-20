@@ -4,17 +4,26 @@ import 'insta_body.dart';
 class InstaHome extends StatelessWidget {
   final topBar = new AppBar(
     backgroundColor: new Color(0xfff8faf8),
-    centerTitle: true,
-    elevation: 1.0,
-    leading: new Icon(Icons.camera_alt),
+    centerTitle: false,
+    elevation: 2.0,
+    leading: new IconButton(
+      icon: Icon(Icons.camera_alt),
+      onPressed: () {},
+    ),
     title: SizedBox(
-      height: 35.0,
-      child: Image.asset("assets/images/insta_logo.png"),
+      height: 33.0,
+      child: Image.asset(
+        "assets/images/insta_logo.png",
+      ),
     ),
     actions: <Widget>[
-      Padding(
-        padding: const EdgeInsets.only(right: 12.0),
-        child: Icon(Icons.send),
+      new IconButton(
+        icon: Icon(Icons.live_tv),
+        onPressed: () {},
+      ),
+      new IconButton(
+        icon: Icon(Icons.send),
+        onPressed: () {},
       ),
     ],
   );
@@ -22,7 +31,10 @@ class InstaHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      appBar: topBar,
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(50.0),
+        child: topBar,
+      ),
       body: new InstaBody(),
       bottomNavigationBar: new Container(
         color: Colors.white,
