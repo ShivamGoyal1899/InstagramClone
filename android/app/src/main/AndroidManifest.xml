@@ -8,7 +8,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="flutter_instagram_clone"
+        android:label="Instagram Clone"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
