@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'insta_body.dart';
+import 'insta_profile.dart';
 
 class InstaHome extends StatelessWidget {
   final topBar = new AppBar(
@@ -62,7 +63,9 @@ class InstaHome extends StatelessWidget {
               ),
               new IconButton(
                 icon: Icon(Icons.person_outline),
-                onPressed: null,
+                onPressed: () {
+                  return new InstaProfile();
+                },
               ),
             ],
           ),
