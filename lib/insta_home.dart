@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'insta_body.dart';
 import 'insta_profile.dart';
 import 'appBar_all.dart';
+import 'insta_search.dart';
 
 class InstaHome extends StatefulWidget {
   @override
@@ -28,7 +29,7 @@ class _InstaHomeState extends State<InstaHome> {
           ),
           Center(
             child: Container(
-              child: Text('Search'),
+              child: new InstaSearch(),
             ),
           ),
           Center(

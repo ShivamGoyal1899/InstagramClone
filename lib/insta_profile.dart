@@ -392,7 +392,7 @@ class InstaProfile extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 2.0),
+                    padding: const EdgeInsets.symmetric(vertical: 1.0),
                     child: new Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
@@ -415,7 +415,7 @@ class InstaProfile extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 2.0),
+                    padding: const EdgeInsets.symmetric(vertical: 1.0),
                     child: new Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
