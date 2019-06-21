@@ -8,7 +8,7 @@ class InstaList extends StatelessWidget {
 //    var deviceSize = MediaQuery.of(context).size;
 
     return new ListView.builder(
-      itemCount: 7,
+      itemCount: 20,
       itemBuilder: (context, index) => index == 0
           ? new SizedBox(
               child: new InstaStories(),

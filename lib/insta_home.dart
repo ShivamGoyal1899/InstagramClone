@@ -75,7 +75,7 @@ class _InstaHomeState extends State<InstaHome> {
                 },
               ),
               new IconButton(
-                icon: Icon(Icons.add_circle),
+                icon: Icon(Icons.add_box),
                 onPressed: () {
                   setState(() {
                     _myPage.jumpToPage(2);
