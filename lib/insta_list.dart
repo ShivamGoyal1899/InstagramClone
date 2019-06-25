@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'insta_stories.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class InstaList extends StatelessWidget {
   @override
@@ -33,8 +32,8 @@ class InstaList extends StatelessWidget {
                               shape: BoxShape.circle,
                               image: new DecorationImage(
                                 fit: BoxFit.fill,
-                                image: new NetworkImage(
-                                    "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                                image: new AssetImage(
+                                    "assets/images/photo.jpg"),
                               ),
                             ),
                           ),
@@ -58,8 +57,8 @@ class InstaList extends StatelessWidget {
                 ),
                 Flexible(
                   fit: FlexFit.loose,
-                  child: new Image.network(
-                    "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4",
+                  child: new Image.asset(
+    "assets/images/photo.jpg",
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -75,24 +74,24 @@ class InstaList extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
                           new Icon(
-                            FontAwesomeIcons.heart,
+                            Icons.favorite,
                           ),
                           new SizedBox(
                             width: 16.0,
                           ),
                           new Icon(
-                            FontAwesomeIcons.comment,
+                            Icons.comment,
                           ),
                           new SizedBox(
                             width: 16.0,
                           ),
                           new Icon(
-                            FontAwesomeIcons.paperPlane,
+                            Icons.send,
                           ),
                         ],
                       ),
                       new Icon(
-                        FontAwesomeIcons.bookmark,
+                        Icons.bookmark_border,
                       ),
                     ],
                   ),
@@ -206,8 +205,8 @@ class InstaList extends StatelessWidget {
                           shape: BoxShape.circle,
                           image: new DecorationImage(
                             fit: BoxFit.fill,
-                            image: new NetworkImage(
-                                "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                            image: new AssetImage(
+                                "assets/images/photo.jpg"),
                           ),
                         ),
                       ),

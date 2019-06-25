@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: "Instagram",
+      title: "ShyShot",
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
         primaryColor: Colors.black,

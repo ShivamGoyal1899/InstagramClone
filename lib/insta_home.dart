@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'insta_add.dart';
 import 'insta_body.dart';
+import 'insta_fav.dart';
 import 'insta_profile.dart';
 import 'appBar_all.dart';
 import 'insta_search.dart';
@@ -34,12 +36,12 @@ class _InstaHomeState extends State<InstaHome> {
           ),
           Center(
             child: Container(
-              child: Text('New Post'),
+              child: new InstaAdd(),
             ),
           ),
           Center(
             child: Container(
-              child: Text('Favourites'),
+              child: new InstaFav(),
             ),
           ),
           Center(
@@ -102,7 +104,7 @@ class _InstaHomeState extends State<InstaHome> {
             ],
           ),
         ),
-      ),
+      )
     );
   }
 }

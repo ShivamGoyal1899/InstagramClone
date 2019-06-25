@@ -21,8 +21,8 @@ class InstaStories extends StatelessWidget {
                         shape: BoxShape.circle,
                         image: new DecorationImage(
                           fit: BoxFit.fill,
-                          image: new NetworkImage(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          image: new AssetImage(
+                              "assets/images/photo.jpg"),
                         ),
                       ),
                       margin: const EdgeInsets.symmetric(horizontal: 10.0),

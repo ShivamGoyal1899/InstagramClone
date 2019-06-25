@@ -64,41 +64,18 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 1.0),
-                    child: new Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        new Container(
-                          width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
-                        ),
-                        new Container(
-                          width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
-                        ),
-                        new Container(
-                          width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -110,18 +87,18 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -133,18 +110,41 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 1.0),
+                    child: new Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        new Container(
+                          width: MediaQuery.of(context).size.width * 0.329,
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
+                        ),
+                        new Container(
+                          width: MediaQuery.of(context).size.width * 0.329,
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
+                        ),
+                        new Container(
+                          width: MediaQuery.of(context).size.width * 0.329,
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -156,41 +156,18 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 1.0),
-                    child: new Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        new Container(
-                          width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
-                        ),
-                        new Container(
-                          width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
-                        ),
-                        new Container(
-                          width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -202,41 +179,18 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 1.0),
-                    child: new Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        new Container(
-                          width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
-                        ),
-                        new Container(
-                          width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
-                        ),
-                        new Container(
-                          width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -248,18 +202,64 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.network(
-                              "https://avatars0.githubusercontent.com/u/25903939?s=460&v=4"),
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 1.0),
+                    child: new Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        new Container(
+                          width: MediaQuery.of(context).size.width * 0.329,
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
+                        ),
+                        new Container(
+                          width: MediaQuery.of(context).size.width * 0.329,
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
+                        ),
+                        new Container(
+                          width: MediaQuery.of(context).size.width * 0.329,
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 1.0),
+                    child: new Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        new Container(
+                          width: MediaQuery.of(context).size.width * 0.329,
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
+                        ),
+                        new Container(
+                          width: MediaQuery.of(context).size.width * 0.329,
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
+                        ),
+                        new Container(
+                          width: MediaQuery.of(context).size.width * 0.329,
+                          child: new Image.asset(
+                              "assets/images/photo.jpg"),
                         ),
                       ],
                     ),

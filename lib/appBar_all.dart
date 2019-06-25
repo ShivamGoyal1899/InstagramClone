@@ -9,11 +9,15 @@ class appBarAll extends StatelessWidget {
       icon: Icon(Icons.camera_alt),
       onPressed: () {},
     ),
-    title: SizedBox(
-      height: 33.0,
-      child: Image.asset(
-        "assets/images/insta_logo.png",
-      ),
+    title: Row(
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: <Widget>[
+        SizedBox(
+          height: 25.0,
+          child: new Text("ShyShot", style: TextStyle(fontSize: 32.0, fontWeight: FontWeight.bold),)
+        ),
+      ],
     ),
     actions: <Widget>[
       new IconButton(
