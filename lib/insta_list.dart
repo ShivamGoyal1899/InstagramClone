@@ -32,8 +32,8 @@ class InstaList extends StatelessWidget {
                               shape: BoxShape.circle,
                               image: new DecorationImage(
                                 fit: BoxFit.fill,
-                                image: new AssetImage(
-                                    "assets/images/photo.jpg"),
+                                image:
+                                    new AssetImage("assets/images/photo.jpg"),
                               ),
                             ),
                           ),
@@ -58,7 +58,7 @@ class InstaList extends StatelessWidget {
                 Flexible(
                   fit: FlexFit.loose,
                   child: new Image.asset(
-    "assets/images/photo.jpg",
+                    "assets/images/photo.jpg",
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -91,7 +91,7 @@ class InstaList extends StatelessWidget {
                         ],
                       ),
                       new Icon(
-                        Icons.bookmark_border,
+                        Icons.bookmark,
                       ),
                     ],
                   ),
@@ -205,8 +205,7 @@ class InstaList extends StatelessWidget {
                           shape: BoxShape.circle,
                           image: new DecorationImage(
                             fit: BoxFit.fill,
-                            image: new AssetImage(
-                                "assets/images/photo.jpg"),
+                            image: new AssetImage("assets/images/photo.jpg"),
                           ),
                         ),
                       ),

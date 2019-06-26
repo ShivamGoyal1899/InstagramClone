@@ -15,7 +15,14 @@ class appBarAll extends StatelessWidget {
       children: <Widget>[
         SizedBox(
           height: 25.0,
-          child: new Text("ShyShot", style: TextStyle(fontSize: 32.0, fontWeight: FontWeight.bold),)
+          child: new Text(
+            "ShyShot",
+            style: TextStyle(
+              fontSize: 25.0,
+              fontWeight: FontWeight.bold,
+              fontFamily: 'Raleway',
+            ),
+          ),
         ),
       ],
     ),

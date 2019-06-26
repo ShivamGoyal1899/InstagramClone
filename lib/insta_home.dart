@@ -104,7 +104,7 @@ class _InstaHomeState extends State<InstaHome> {
             ],
           ),
         ),
-      )
+      ),
     );
   }
 }

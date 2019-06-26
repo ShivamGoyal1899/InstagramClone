@@ -64,18 +64,15 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -87,18 +84,15 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -110,18 +104,15 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -133,18 +124,15 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -156,18 +144,15 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -179,18 +164,15 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -202,18 +184,15 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -225,18 +204,15 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                       ],
                     ),
@@ -248,18 +224,15 @@ class InstaSearch extends StatelessWidget {
                       children: <Widget>[
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                         new Container(
                           width: MediaQuery.of(context).size.width * 0.329,
-                          child: new Image.asset(
-                              "assets/images/photo.jpg"),
+                          child: new Image.asset("assets/images/photo.jpg"),
                         ),
                       ],
                     ),

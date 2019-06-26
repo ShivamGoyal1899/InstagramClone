@@ -10,20 +10,15 @@ class InstaAdd extends StatefulWidget {
 class _InstaAddState extends State<InstaAdd> {
   File image;
 
-//  To use Gallery or File Manager to pick Image
-//  Comment Line No. 19 and uncomment Line number 20
   Camera_picker() async {
-    print('Picker is called');
     File img = await ImagePicker.pickImage(source: ImageSource.camera);
-//    File img = await ImagePicker.pickImage(source: ImageSource.gallery);
     if (img != null) {
       image = img;
       setState(() {});
     }
   }
+
   Gallery_picker() async {
-    print('Picker is called');
-//    File img = await ImagePicker.pickImage(source: ImageSource.camera);
     File img = await ImagePicker.pickImage(source: ImageSource.gallery);
     if (img != null) {
       image = img;
@@ -41,7 +36,13 @@ class _InstaAddState extends State<InstaAdd> {
             height: 350.0,
             child: new Center(
               child: image == null
-                  ? new Text("No image selected", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 16.0),)
+                  ? new Text(
+                      "No image selected",
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16.0),
+                    )
                   : new Image.file(image),
             ),
           ),
@@ -52,7 +53,8 @@ class _InstaAddState extends State<InstaAdd> {
             height: 20.0,
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 60.0, vertical: 30.0),
+            padding:
+                const EdgeInsets.symmetric(horizontal: 60.0, vertical: 30.0),
             child: new Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -62,7 +64,13 @@ class _InstaAddState extends State<InstaAdd> {
                   width: 120.0,
                   child: new FloatingActionButton.extended(
                     elevation: 4.0,
-                    label: Text("Capture New", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 16.0),),
+                    label: Text(
+                      "Capture New",
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16.0),
+                    ),
                     backgroundColor: Colors.white,
                     onPressed: Camera_picker,
                     icon: new Icon(
@@ -78,7 +86,13 @@ class _InstaAddState extends State<InstaAdd> {
                   height: 60.0,
                   width: 120.0,
                   child: new FloatingActionButton.extended(
-                    label: Text("Pick from Gallery", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 16.0),),
+                    label: Text(
+                      "Pick from Gallery",
+                      style: TextStyle(
+                          color: Colors.black,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16.0),
+                    ),
                     elevation: 4.0,
                     backgroundColor: Colors.white,
                     onPressed: Gallery_picker,
