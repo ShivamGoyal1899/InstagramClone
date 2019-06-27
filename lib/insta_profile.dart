@@ -13,7 +13,7 @@ class InstaProfile extends StatelessWidget {
                 padding:
                     const EdgeInsets.only(top: 10.0, left: 10.0, right: 10.0),
                 child: new SizedBox(
-                  height: 320.0,
+                  height: 325.0,
                   child: new Column(
                     children: <Widget>[
                       Padding(

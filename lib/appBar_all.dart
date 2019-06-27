@@ -11,16 +11,20 @@ class appBarAll extends StatelessWidget {
     ),
     title: Row(
       mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         SizedBox(
-          height: 25.0,
-          child: new Text(
-            "ShyShot",
-            style: TextStyle(
-              fontSize: 25.0,
-              fontWeight: FontWeight.bold,
-              fontFamily: 'Raleway',
+          width: 100.0,
+          height: 35.0,
+          child: Center(
+            child: new Text(
+              "ShyShot",
+              style: TextStyle(
+                fontSize: 25.0,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'Raleway',
+              ),
+              textAlign: TextAlign.start,
             ),
           ),
         ),

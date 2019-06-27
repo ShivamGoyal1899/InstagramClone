@@ -33,7 +33,7 @@ class _InstaAddState extends State<InstaAdd> {
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
           new Container(
-            height: 350.0,
+            height: MediaQuery.of(context).size.height * 0.5,
             child: new Center(
               child: image == null
                   ? new Text(
@@ -49,60 +49,57 @@ class _InstaAddState extends State<InstaAdd> {
           new Divider(
             height: 0.0,
           ),
-          new Container(
-            height: 20.0,
-          ),
           Padding(
             padding:
-                const EdgeInsets.symmetric(horizontal: 60.0, vertical: 30.0),
-            child: new Column(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: <Widget>[
-                new Container(
-                  height: 60.0,
-                  width: 120.0,
-                  child: new FloatingActionButton.extended(
-                    elevation: 4.0,
-                    label: Text(
-                      "Capture New",
-                      style: TextStyle(
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16.0),
-                    ),
-                    backgroundColor: Colors.white,
-                    onPressed: Camera_picker,
-                    icon: new Icon(
-                      Icons.add_a_photo,
-                      color: Colors.black,
-                    ),
-                  ),
-                ),
-                new Container(
-                  height: 40.0,
-                ),
-                new Container(
-                  height: 60.0,
-                  width: 120.0,
-                  child: new FloatingActionButton.extended(
-                    label: Text(
-                      "Pick from Gallery",
-                      style: TextStyle(
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16.0),
-                    ),
-                    elevation: 4.0,
-                    backgroundColor: Colors.white,
-                    onPressed: Gallery_picker,
-                    icon: new Icon(
-                      Icons.photo_library,
-                      color: Colors.black,
+                const EdgeInsets.symmetric(horizontal: 60.0, vertical: 20.0),
+            child: Container(
+              height: MediaQuery.of(context).size.height * 0.23,
+              child: new Column(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: <Widget>[
+                  new Container(
+                    height: 60.0,
+                    width: 120.0,
+                    child: new FloatingActionButton.extended(
+                      elevation: 4.0,
+                      label: Text(
+                        "Capture New",
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16.0),
+                      ),
+                      backgroundColor: Colors.white,
+                      onPressed: Camera_picker,
+                      icon: new Icon(
+                        Icons.add_a_photo,
+                        color: Colors.black,
+                      ),
                     ),
                   ),
-                ),
-              ],
+                  new Container(
+                    height: 60.0,
+                    width: 120.0,
+                    child: new FloatingActionButton.extended(
+                      label: Text(
+                        "Pick from Gallery",
+                        style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16.0),
+                      ),
+                      elevation: 4.0,
+                      backgroundColor: Colors.white,
+                      onPressed: Gallery_picker,
+                      icon: new Icon(
+                        Icons.photo_library,
+                        color: Colors.black,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
