@@ -1,4 +1,4 @@
-package tk.shivamgoyal.flutter_instagram_clone;
+package co.shivamgoyal.shyshot;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
