@@ -1,3 +1,4 @@
+import 'package:ShyShot/post_model.dart';
 import 'package:flutter/material.dart';
 import 'insta_stories.dart';
 
@@ -7,7 +8,7 @@ class InstaList extends StatelessWidget {
 //    var deviceSize = MediaQuery.of(context).size;
 
     return new ListView.builder(
-      itemCount: 20,
+      itemCount: dummyData.length * 2,
       itemBuilder: (context, index) => index == 0
           ? new SizedBox(
               child: new InstaStories(),
@@ -33,7 +34,7 @@ class InstaList extends StatelessWidget {
                               image: new DecorationImage(
                                 fit: BoxFit.fill,
                                 image:
-                                    new AssetImage("assets/images/photo.jpg"),
+                                    new AssetImage(dummyData[index % 10].avatarUrl),
                               ),
                             ),
                           ),
@@ -41,7 +42,7 @@ class InstaList extends StatelessWidget {
                             width: 10.0,
                           ),
                           new Text(
-                            "shivamgoyal1899",
+                            dummyData[index % 10].userName,
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                             ),
@@ -58,7 +59,7 @@ class InstaList extends StatelessWidget {
                 Flexible(
                   fit: FlexFit.loose,
                   child: new Image.asset(
-                    "assets/images/photo.jpg",
+                    dummyData[index % 10].avatarUrl,
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -158,7 +159,7 @@ class InstaList extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(right: 2.0),
                         child: Text(
-                          "shivamgoyal1899",
+                          dummyData[index % 10].userName,
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 14.0,
@@ -205,7 +206,7 @@ class InstaList extends StatelessWidget {
                           shape: BoxShape.circle,
                           image: new DecorationImage(
                             fit: BoxFit.fill,
-                            image: new AssetImage("assets/images/photo.jpg"),
+                            image: new AssetImage(dummyData[index % 10].avatarUrl),
                           ),
                         ),
                       ),

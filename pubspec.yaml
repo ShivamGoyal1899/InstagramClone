@@ -21,15 +21,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/insta_logo.png
-    - assets/images/photo.jpg
+    - assets/images/
   fonts:
-    - family: Aveny
-      fonts:
-        - asset: assets/fonts/AvenyTRegular.otf
-          style: normal
-        - asset: assets/fonts/AvenyTMedium.otf
-          style: italic
     - family: Raleway
       fonts:
         - asset: assets/fonts/Raleway-Regular.ttf

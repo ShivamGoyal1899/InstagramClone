@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         primaryTextTheme: TextTheme(
           title: TextStyle(
             color: Colors.black,
-            fontFamily: "Aveny",
+            fontFamily: "Raleway",
           ),
         ),
         textTheme: TextTheme(

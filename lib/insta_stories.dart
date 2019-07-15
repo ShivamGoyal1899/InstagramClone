@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'post_model.dart';
 
 class InstaStories extends StatelessWidget {
   final stories = new Expanded(
@@ -8,7 +9,7 @@ class InstaStories extends StatelessWidget {
       ),
       child: new ListView.builder(
         scrollDirection: Axis.horizontal,
-        itemCount: 30,
+        itemCount: dummyData.length * 2,
         itemBuilder: (context, index) => new Column(
               children: <Widget>[
                 new Stack(
@@ -21,7 +22,7 @@ class InstaStories extends StatelessWidget {
                         shape: BoxShape.circle,
                         image: new DecorationImage(
                           fit: BoxFit.fill,
-                          image: new AssetImage("assets/images/photo.jpg"),
+                          image: new AssetImage(dummyData[index % 10].avatarUrl),
                         ),
                       ),
                       margin: const EdgeInsets.symmetric(horizontal: 10.0),
@@ -46,7 +47,7 @@ class InstaStories extends StatelessWidget {
                   padding:
                       const EdgeInsets.only(top: 8.0, left: 4.0, right: 4.0),
                   child: new Text(
-                    index == 0 ? "Your story" : "shivamgoyal",
+                    index == 0 ? "Your story" : dummyData[index % 10].userName,
                     style: TextStyle(fontSize: 12.0),
                   ),
                 ),
