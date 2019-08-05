@@ -1,9 +1,9 @@
-name: ShyShot
-description: Photo Sharing app like Instagram made with Flutter
-version: 2.0.0+1
+name: Instagram
+description: Instagram UI Clone
+version: 3.0.0+1
 author: Shivam Goyal
 homepage: https://shivamgoyal.co
-repository: https://github.com/ShivamGoyal1899/ShyShot
+repository: https://github.com/ShivamGoyal1899/InstagramClone
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -11,8 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons:
-  image_picker:
+  cupertino_icons: ^0.1.2
+  image_picker: ^0.6.1
 
 dev_dependencies:
   flutter_test:

@@ -1,4 +1,4 @@
-import 'package:ShyShot/post_model.dart';
+import 'post_model.dart';
 import 'package:flutter/material.dart';
 import 'insta_stories.dart';
 

@@ -1,4 +1,4 @@
-package co.shivamgoyal.shyshot;
+package co.shivamgoyal.instagram;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

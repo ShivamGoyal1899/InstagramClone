@@ -18,7 +18,7 @@ class appBarAll extends StatelessWidget {
           height: 35.0,
           child: Center(
             child: new Text(
-              "ShyShot",
+              "Instagram",
               style: TextStyle(
                 fontSize: 25.0,
                 fontWeight: FontWeight.bold,
